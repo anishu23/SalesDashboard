@@ -1,0 +1,463 @@
+{
+    "callDetails" : [
+        {
+            "id": 1,
+            "salesRep":"John Doe",
+            "date":"2020-09-19T07:58:33.597Z",
+            "client":"Oberoi Group of Hotels",
+            "poc":"Mahmud Ritelli",
+            "title": "C Level",
+            "vertical": "Marketing",
+            "meetingLoc":"Goto meeting",
+            "poi":"Understand their current ecosystem",
+            "outcomeRemarks":"Send first cut of proposed solution.",
+            "status":"Needs defined"
+        },
+        {
+            "id": 2,
+            "salesRep":"Ethan Hunt",
+            "date":"2020-09-19T07:58:33.597Z",
+            "client":"Taj Group of Hotels",
+            "poc":"Avie Peasegood",
+            "title": "C Level",
+            "vertical": "Sales",
+            "meetingLoc":"Video",
+            "poi":"Demo the product",
+            "outcomeRemarks":"She will get back with availability on next meeting.",
+            "status":"Contact made"
+        },
+        {
+            "id": 3,
+            "salesRep":"Jane Doe",
+            "date":"2020-09-19T07:58:33.597Z",
+            "client":"Accenture",
+            "poc":"Dew Tilbey",
+            "title": "C Level",
+            "vertical": "Senior Management",
+            "meetingLoc":"Face to face",
+            "poi":"Negotiations",
+            "outcomeRemarks":"He needs to get final approval by board. Will happen by today EOD.",
+            "status":"Negotiations Started"
+        },
+        {
+            "id": 4,
+            "salesRep":"Julia Cruise",
+            "date":"2020-09-19T07:58:33.597Z",
+            "client":"Google",
+            "poc":"Jerri Casswell",
+            "title": "Sr Manager Level",
+            "vertical": "Technology",
+            "meetingLoc":"Call",
+            "poi":"Introductory Call",
+            "outcomeRemarks":"Needs to send them a reminder tomorrow to fix meeting with Sales Head.",
+            "status":"Contact made"
+        },
+        {
+            "id": 5,
+            "salesRep":"Tom Roberts",
+            "date":"2020-09-19T07:58:33.597Z",
+            "client":"Microsoft",
+            "poc":"Dannye Haims",
+            "title": "VP Level",
+            "vertical": "Senior Management",
+            "meetingLoc":"Email",
+            "poi":"Confirm final meeting with CEO for pricing negotiation.",
+            "outcomeRemarks":"Meeting confirmed for tommorow.",
+            "status":"Negotiations Started"
+        },
+        {
+            "id": 6,
+            "salesRep":"John Doe",
+            "date":"2020-09-20T07:58:33.597Z",
+            "client":"Oberoi Group of Hotels",
+            "poc":"Mahmud Ritelli",
+            "title": "C Level",
+            "vertical": "Marketing",
+            "meetingLoc":"Face to face",
+            "poi":"Propose our solution",
+            "outcomeRemarks":"Send them an updated solution based on their feedback by next week.",
+            "status":"Needs defined"
+        },
+        {
+            "id": 7,
+            "salesRep":"Ethan Hunt",
+            "date":"2020-09-20T07:58:33.597Z",
+            "client":"Taj Group of Hotels",
+            "poc":"Avie Peasegood",
+            "title": "C Level",
+            "vertical": "Sales",
+            "meetingLoc":"Call",
+            "poi":"Fix up next meeting",
+            "outcomeRemarks":"She has to fly out of country urgently. Will get back with availability once back.",
+            "status":"Contact made"
+        },
+        {
+            "id": 8,
+            "salesRep":"Jane Doe",
+            "date":"2020-09-20T07:58:33.597Z",
+            "client":"Accenture",
+            "poc":"Dew Tilbey",
+            "title": "C Level",
+            "vertical": "Senior Management",
+            "meetingLoc":"Face to face",
+            "poi":"Deal Signing",
+            "outcomeRemarks":"Deal closed",
+            "status":"Won"
+        },
+        {
+            "id": 8,
+            "salesRep":"Julia Cruise",
+            "date":"2020-09-20T07:58:33.597Z",
+            "client":"Google",
+            "poc":"Jerri Casswell",
+            "title": "Sr Manager Level",
+            "vertical": "Technology",
+            "meetingLoc":"Text",
+            "poi":"Fix up next meeting with Sales Head",
+            "outcomeRemarks":"Scheduled for next week.",
+            "status":"Contact made"
+        },
+        {
+            "id": 10,
+            "salesRep":"Tom Roberts",
+            "date":"2020-09-20T18:30:00.000Z",
+            "client":"Microsoft",
+            "poc":"Dannye Haims",
+            "title": "VP Level",
+            "vertical": "Senior Management",
+            "meetingLoc":"Face to face",
+            "poi":"Finalize negotiation.",
+            "outcomeRemarks":"Deal lost.",
+            "status":"Lost"
+        }
+    ],
+    "performance": {
+        "daily": [
+            {
+                "id":1,
+                "salesRep": "John Doe",
+                "mrr": 5230,
+                "logos":102,
+                "calls":30
+            },
+            {
+                "id":2,
+                "salesRep": "Ethan Hunt",
+                "mrr": 3500,
+                "logos":82,
+                "calls":10
+            },
+            {
+                "id":3,
+                "salesRep": "Jane Doe",
+                "mrr": 2679,
+                "logos":75,
+                "calls":13
+            },
+            {
+                "id":4,
+                "salesRep": "Julia Cruise",
+                "mrr": 3124,
+                "logos":66,
+                "calls":24
+            },
+            {
+                "id":5,
+                "salesRep": "Tom Roberts",
+                "mrr": 1056,
+                "logos":35,
+                "calls":5
+            },
+            {
+                "id":6,
+                "salesRep": "Jane Smith",
+                "mrr": 4586,
+                "logos":95,
+                "calls":23
+            },
+            {
+                "id":7,
+                "salesRep": "Chris Stark",
+                "mrr": 1405,
+                "logos":46,
+                "calls":7
+            }
+        ],
+        "weekly":[
+            {
+                "id":1,
+                "salesRep": "John Doe",
+                "mrr": 30610,
+                "logos":600,
+                "calls":278
+            },
+            {
+                "id":2,
+                "salesRep": "Ethan Hunt",
+                "mrr": 23500,
+                "logos":574,
+                "calls":78
+            },
+            {
+                "id":3,
+                "salesRep": "Jane Doe",
+                "mrr": 19700,
+                "logos":550,
+                "calls":91
+            },
+            {
+                "id":4,
+                "salesRep": "Julia Cruise",
+                "mrr": 23124,
+                "logos":466,
+                "calls":168
+            },
+            {
+                "id":5,
+                "salesRep": "Tom Roberts",
+                "mrr": 10560,
+                "logos":350,
+                "calls":50
+            },
+            {
+                "id":6,
+                "salesRep": "Jane Smith",
+                "mrr": 45860,
+                "logos":950,
+                "calls":230
+            },
+            {
+                "id":7,
+                "salesRep": "Chris Stark",
+                "mrr": 14050,
+                "logos":460,
+                "calls":70
+            }
+        ],
+        "monthly":[
+            {
+                "id":1,
+                "salesRep": "John Doe",
+                "mrr": 523000,
+                "logos":10200,
+                "calls":3000
+            },
+            {
+                "id":2,
+                "salesRep": "Ethan Hunt",
+                "mrr": 350000,
+                "logos":8200,
+                "calls":1000
+            },
+            {
+                "id":3,
+                "salesRep": "Jane Doe",
+                "mrr": 267900,
+                "logos":7500,
+                "calls":1300
+            },
+            {
+                "id":4,
+                "salesRep": "Julia Cruise",
+                "mrr": 312400,
+                "logos":6600,
+                "calls":2400
+            },
+            {
+                "id":5,
+                "salesRep": "Tom Roberts",
+                "mrr": 105600,
+                "logos":3500,
+                "calls":500
+            },
+            {
+                "id":6,
+                "salesRep": "Jane Smith",
+                "mrr": 458706,
+                "logos":9500,
+                "calls":2300
+            },
+            {
+                "id":7,
+                "salesRep": "Chris Stark",
+                "mrr": 140455,
+                "logos":4690,
+                "calls":700
+            }
+        ],
+        "quarterly":[
+            {
+                "id":1,
+                "salesRep": "John Doe",
+                "mrr": 5230000,
+                "logos":102000,
+                "calls":30000
+            },
+            {
+                "id":2,
+                "salesRep": "Ethan Hunt",
+                "mrr": 3500000,
+                "logos":82000,
+                "calls":10000
+            },
+            {
+                "id":3,
+                "salesRep": "Jane Doe",
+                "mrr": 2679000,
+                "logos":75000,
+                "calls":13000
+            },
+            {
+                "id":4,
+                "salesRep": "Julia Cruise",
+                "mrr": 3120004,
+                "logos":66000,
+                "calls":24000
+            },
+            {
+                "id":5,
+                "salesRep": "Tom Roberts",
+                "mrr": 1056000,
+                "logos":35000,
+                "calls":5000
+            },
+            {
+                "id":6,
+                "salesRep": "Jane Smith",
+                "mrr": 4586000,
+                "logos":95000,
+                "calls":23000
+            },
+            {
+                "id":7,
+                "salesRep": "Chris Stark",
+                "mrr": 1405000,
+                "logos":46000,
+                "calls":7000
+            }
+        ],
+        "annually":[
+            {
+                "id":1,
+                "salesRep": "John Doe",
+                "mrr": 52300000,
+                "logos":1020000,
+                "calls":300000
+            },
+            {
+                "id":2,
+                "salesRep": "Ethan Hunt",
+                "mrr": 35000000,
+                "logos":820000,
+                "calls":100000
+            },
+            {
+                "id":3,
+                "salesRep": "Jane Doe",
+                "mrr": 26790000,
+                "logos":750000,
+                "calls":130000
+            },
+            {
+                "id":4,
+                "salesRep": "Julia Cruise",
+                "mrr": 31240000,
+                "logos":660000,
+                "calls":240000
+            },
+            {
+                "id":5,
+                "salesRep": "Tom Roberts",
+                "mrr": 10560000,
+                "logos":350000,
+                "calls":50000
+            },
+            {
+                "id":6,
+                "salesRep": "Jane Smith",
+                "mrr": 45860000,
+                "logos":950000,
+                "calls":230000
+            },
+            {
+                "id":7,
+                "salesRep": "Chris Stark",
+                "mrr": 14050000,
+                "logos":460000,
+                "calls":70000
+            }
+        ]
+    },
+    "dashboardData": {
+        "daily":{
+            "lead":25,
+            "contactMade":18,
+            "needsDefined":12,
+            "proposalmade":8,
+            "negotationsStarted":5,
+            "won":3,
+            "calls":10,
+            "totalCalls":15,
+            "wins":1,
+            "totalwins":3,
+            "revenue":80000,
+            "totalrevenue":100000
+        },
+        "weekly":{
+            "lead":175,
+            "contactMade":126,
+            "needsDefined":92,
+            "proposalmade":79,
+            "negotationsStarted":55,
+            "won":12,
+            "calls":20,
+            "totalCalls":35,
+            "wins":8,
+            "totalwins":12,
+            "revenue":90000,
+            "totalrevenue":200000
+        },
+        "annually":{
+            "lead":16175,
+            "contactMade":11126,
+            "needsDefined":10292,
+            "proposalmade":4079,
+            "negotationsStarted":505,
+            "won":315,
+            "calls":95,
+            "totalCalls":135,
+            "wins":45,
+            "totalwins":65,
+            "revenue":250000,
+            "totalrevenue":5000000
+        },
+        "quarterly":{
+            "lead":4175,
+            "contactMade":4126,
+            "needsDefined":492,
+            "proposalmade":379,
+            "negotationsStarted":255,
+            "won":212,
+            "calls":70,
+            "totalCalls":100,
+            "wins":25,
+            "totalwins":40,
+            "revenue":110000,
+            "totalrevenue":300000
+        },
+        "monthly": {
+            "lead":1175,
+            "contactMade":1126,
+            "needsDefined":192,
+            "proposalmade":179,
+            "negotationsStarted":155,
+            "won":112,
+            "calls":40,
+            "totalCalls":60,
+            "wins":12,
+            "totalwins":20,
+            "revenue":100000,
+            "totalrevenue":1200000
+        }
+    }
+}

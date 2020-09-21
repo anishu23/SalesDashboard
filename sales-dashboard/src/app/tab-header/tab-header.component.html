@@ -1,0 +1,13 @@
+<div class="headerContainer">
+    <ng-container #tabContainer></ng-container>
+    <ng-template #tabTemplate let-tabConfig="tabConfig">
+        <div class="tabContainer" 
+            (click)="tabClicked(tabConfig)" 
+            [ngClass]="tabConfig.selectedClass"
+            [ngStyle]="tabConfig.customStyle">
+                <div class="tabContent">
+                    {{tabConfig.title}}
+                </div>
+        </div>
+    </ng-template>
+</div>

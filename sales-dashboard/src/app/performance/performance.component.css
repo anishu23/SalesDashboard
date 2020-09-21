@@ -1,0 +1,98 @@
+.performance-container {
+    margin-left: 40px;
+    height: 100%;
+}
+
+.tabs-container {
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    /* min-height: 251px; */
+}
+
+.card-top-color {
+    background-color: #1976D2;
+}
+
+.card-mid-color {
+    background-color: #2196F3;
+}
+
+.card-bottom-color {
+    background-color: #64B5F6;
+}
+
+.card-margin {
+    margin: 40px 0;
+}
+
+.card-innner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+}
+
+.card-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.card-info-container {
+    width: 100%;
+}
+
+.card-info-title {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.card-info-line { 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+}
+
+.width50 {
+ width: 50%;
+}
+
+.fontSize48 {
+    font-size: 48px;
+}
+
+.fontBold {
+    font-weight: bold;
+}
+
+.fontSize18 {
+    font-size: 18px;
+}
+
+.card-info-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

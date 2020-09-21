@@ -1,0 +1,32 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    /* margin: 0 80px; */
+    background-color: #fff;
+    height: 50px;
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 10%;
+}
+
+.tabContent {
+    text-align: center;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.tabSelected {
+    color: #2196F3;
+    border-bottom: 1px solid;
+}
+
+.tabUnselected {
+    color: #2C3E50;
+    opacity: 0.5;
+}

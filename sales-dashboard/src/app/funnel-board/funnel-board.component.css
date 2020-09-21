@@ -1,0 +1,190 @@
+/* .funnelContainer {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* @media (min-width: 668px) and (max-width: 1669px) {
+    .funnelContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .funnelImage {
+        width: 100%;
+    }
+    .funnelDataContainer {
+        width: 100%;
+        position: absolute;
+        height: 15%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 0;
+    }
+} */
+
+
+/* @media (min-width: 1670px) { */
+    .funnelContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .funnelImage {
+        width: 100%;
+    }
+    .funnelDataContainer {
+        width: 100%;
+        position: absolute;
+        height: 15%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: auto;
+    }
+/* } */
+
+/* @media (min-width: 1328) {
+    
+} */
+
+
+.funnelChartContainer {
+    position: relative;
+}
+.top0 {
+    top: 0;
+}
+.top15 {
+    top: 15%;
+}
+.top30 {
+    top: 30%;
+}
+.top45 {
+    top: 45%;
+}
+.top60 {
+    top: 60%;
+}
+.top76 {
+    top: 76%
+}
+
+.dataFont {
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+.fontSize48px {
+    font-size: 48px;
+}
+
+.fontSize18px {
+    font-size: 18px;
+}
+
+.dataFontBold {
+    font-weight: bold;
+}
+
+.selectClass select {
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #2C3E50;
+}
+
+.selectClass select:focus {
+    border: none;
+}
+
+.selectionHeader {
+    background-color: #fff;
+    margin-bottom: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.selectClass option {
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.5;
+    color: #2C3E50;
+}
+
+
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    background-color: #fff;
+}
+
+.card-margin {
+    margin: 40px 0;
+}
+
+.card-innner-container {
+    width: auto;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-info-title {
+    font-size: 18px;
+    color: #2C3E50;
+    opacity: 0.5;
+    font-weight: medium;
+}
+
+.card-info-value {
+    font-size: 48px;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.performanceContainer {
+    width: 25%;
+}
+.funnel-inner-container {
+    width: 75%;
+}
+.funnel-body-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.performanceContainer {
+    height: 100%;
+}

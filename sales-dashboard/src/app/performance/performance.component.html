@@ -1,0 +1,34 @@
+<div class="performance-container">
+    <div class="tabs-container">
+        <ng-container #perfomanceSortHeaderContainer></ng-container>
+        <ng-template #perfomanceSortHeaderTemplate let-perfSortConfig="perfSortConfig">
+            <app-tab-header [config]="perfSortConfig" (change)="onSortChange($event)"></app-tab-header>
+        </ng-template>
+    </div>
+    <div class="cards-container">
+        <ng-container #performanceCardContainer></ng-container>
+        <ng-template #performanceCardTemplate let-cardConfig="cardConfig">
+            <div class="card" [ngClass]="{'card-margin card-mid-color': cardConfig.isMiddle, 'card-top-color': cardConfig.isTop, 'card-bottom-color': cardConfig.isBottom}">
+                <div class="card-image-container">
+                    <img class="card-image" src="assets/winner.png">
+                </div>
+                <div class="card-innner-container">
+                    <div class="card-info-container">
+                        <div class="card-info-title">{{cardConfig.salesRep}}</div>
+                        <div class="card-info">
+                            <div class="card-info-line">
+                                <div class="card-info-subtitle width50 fontSize18">New MRR</div><div class="width50 fontSize48 fontBold">{{cardConfig.mrr | roman}}</div>
+                            </div>
+                            <div class="card-info-line">
+                                <div class="card-info-subtitle width50 fontSize18">New Logos</div><div class="width50 fontSize48 fontBold">{{cardConfig.logos | roman}}</div>
+                            </div>
+                            <div class="card-info-line">
+                                <div class="card-info-subtitle width50 fontSize18">Demo Calls</div><div class="width50 fontSize48 fontBold">{{cardConfig.calls | roman}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</div>

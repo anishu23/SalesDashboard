@@ -1,0 +1,69 @@
+<div class="funnel-body-container">
+    <div class="funnel-inner-container">
+        <div class="selectionHeader">
+            <div class="selectClass">
+                <select name="salesRep" id="salesRep" (change)="repSelected($event)">
+                    <option *ngFor="let rep of funnelBoardConfig.salesRep" 
+                        class="selectOptionsClass" 
+                        [id]="rep.id" 
+                        [ngValue]="rep">
+                        {{rep.name}}
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="funnelContainer">
+            <div class="funnelChartContainer">
+                <img class="funnelImage" src="assets/funnel.png">
+                <div class="funnelDataContainer top0">
+                    <div class="dataFont fontSize18px">Lead In</div>
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.lead}}</div>
+                </div>
+                <div class="funnelDataContainer top15">
+                    <div class="dataFont fontSize18px">Contact Made</div> 
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.contactMade}}</div>
+                </div>
+                <div class="funnelDataContainer top30">
+                    <div class="dataFont fontSize18px">Needs Defined</div> 
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.needsDefined}}</div>
+                </div>
+                <div class="funnelDataContainer top45">
+                    <div class="dataFont fontSize18px">Proposal Made</div>
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.proposalmade}}</div>
+                </div>
+                <div class="funnelDataContainer top60">
+                    <div class="dataFont fontSize18px">Negotiations Started</div>
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.negotationsStarted}}</div>
+                </div>
+                <div class="funnelDataContainer top76">
+                    <div class="dataFont fontSize48px dataFontBold">WON</div>
+                    <div class="dataFont fontSize48px dataFontBold">{{funnelBoardConfig.won}}</div>
+                </div>
+            </div>
+            <div class="cardsContainer">
+                <ng-container #funnelCardContainer></ng-container>
+                <ng-template #funnelCardTemplate let-cardConfig="cardConfig">
+                    <div class="card" [ngClass]="{'card-margin': cardConfig.isMiddle}">
+                        <div class="card-innner-container">
+                            <div class="card-image">
+                                <img [src]="cardConfig.imgSrc">
+                            </div>
+                            <div class="card-info-container">
+                                <div class="card-info-title">{{cardConfig.title}}</div>
+                                <div class="card-info-value">
+                                    {{cardConfig.value}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+    <div class="performanceContainer">
+        <ng-container #perfomanceContainer></ng-container>
+        <ng-template #performanceTemplate let-performanceConfig="performanceConfig">
+            <app-performance [config]="performanceConfig"></app-performance>
+        </ng-template>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="main-header">
+    <div class="header-container">
+        <div class="header-inner-container">
+            <div class="header-logo">
+                <img class="header-image" src="assets/logo.png">
+            </div>
+            <div class="header-title-container">
+                <div class="header-title fontSize48">SALES DASHBOARD</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="timeline-container">
+        <ng-container #timelineHeaderContainer></ng-container>
+        <ng-template #timelineHeaderTemplate let-timelineConfig="timelineConfig">
+            <app-tab-header [config]="timelineConfig" (change)="onTimelineChange($event)"></app-tab-header>
+        </ng-template>
+    </div>
+</div>
+<div class="dashboardContainer">
+    <div class="funnelBoardContainer">
+        <ng-container #funnelBoardContainer></ng-container>
+        <ng-template #funnelBoardTemplate let-funnelBoardConfig="funnelBoardConfig">
+            <app-funnel-board [config]="funnelBoardConfig"></app-funnel-board>
+        </ng-template>
+    </div>
+</div>
+<div>
+    <div class="detailsContainer">
+        <ng-container #detailsTableContainer></ng-container>
+        <ng-template #detailsTableTemplate let-detailsConfig="detailsConfig">
+            <app-details-table [config]="detailsConfig"></app-details-table>
+        </ng-template>
+    </div>
+</div>

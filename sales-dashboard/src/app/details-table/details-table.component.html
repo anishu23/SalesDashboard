@@ -1,0 +1,19 @@
+<div class="table-container">
+    <div class="table-title">Details</div>
+    <div>
+        <table class="details-table">
+            <div class="table-row">
+                <ng-container #thContainer></ng-container>
+                <ng-template #thTemplate let-thData="thData">
+                    <div class="table-cell header">{{thData}}</div>
+                </ng-template>
+            </div>
+            <ng-container #trContainer></ng-container>
+            <ng-template #trTemplate let-trData="trData">
+                <div class="table-row dark" [ngClass]="{'dark': trData.isOdd, 'won': trData.won, 'lost': trData.lost}">
+                   <div *ngFor="let tdData of trData.data" class="table-cell">{{tdData.data}}</div>
+                </div>
+            </ng-template>
+        </table>
+    </div>
+</div>
