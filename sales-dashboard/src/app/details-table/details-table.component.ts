@@ -27,7 +27,7 @@ export class DetailsTableComponent implements OnInit {
     }
     if(this.tableConfig.rows.length > 0) {
       for(var i=0; i<this.tableConfig.rows.length; i++) {
-        if(i%2!=0) {
+        if(i%2==0) {
           this.tableConfig.rows[i].isOdd = true;
         }
         this.trContainerRef.createEmbeddedView(this.trTemplateRef, {trData: this.tableConfig.rows[i]})

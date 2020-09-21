@@ -1,44 +1,33 @@
-/* .funnelContainer {
-    display: flex;
-    flex-direction: row;
-} */
-
-
-/* @media (min-width: 668px) and (max-width: 1669px) {
-    .funnelContainer {
+@media screen and (max-width: 1024px) {
+    .funnel-body-container {
         display: flex;
         flex-direction: column;
     }
-    .funnelImage {
+    .funnel-inner-container {
         width: 100%;
     }
-    .funnelDataContainer {
+    .performanceContainer {
         width: 100%;
-        position: absolute;
-        height: 15%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin-top: 20px
     }
-    .cardsContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-left: 0;
-    }
-} */
+}
 
+@media screen and (min-width: 1024px) {
 
-/* @media (min-width: 1670px) { */
-    .funnelContainer {
+    .funnel-body-container {
         display: flex;
         flex-direction: row;
     }
-    .funnelImage {
-        width: 100%;
+    .funnel-inner-container {
+        width: 75%;
     }
+
+    .performanceContainer {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1460px) {
     .funnelDataContainer {
         width: 100%;
         position: absolute;
@@ -49,18 +38,31 @@
         justify-content: center;
         align-items: center;
     }
-    .cardsContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-left: auto;
-    }
-/* } */
+}
 
-/* @media (min-width: 1328) {
-    
-} */
-
+.funnelContainer {
+    display: flex;
+    flex-direction: row;
+}
+.funnelImage {
+    width: 100%;
+}
+.funnelDataContainer {
+    width: 100%;
+    position: absolute;
+    height: 15%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
 
 .funnelChartContainer {
     position: relative;
@@ -138,6 +140,7 @@
     flex-direction: column;
     height: 30%;
     background-color: #fff;
+    min-height: 198px;
 }
 
 .card-margin {
@@ -171,19 +174,8 @@
     font-size: 48px;
     color: #2196F3;
     font-weight: bold;
+    text-align: right;
 }
-
-.performanceContainer {
-    width: 25%;
-}
-.funnel-inner-container {
-    width: 75%;
-}
-.funnel-body-container {
-    display: flex;
-    flex-direction: row;
-}
-
 
 .performanceContainer {
     height: 100%;

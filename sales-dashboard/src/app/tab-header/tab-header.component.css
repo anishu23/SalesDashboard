@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    /* margin: 0 80px; */
     background-color: #fff;
     height: 50px;
 }
@@ -29,4 +28,16 @@
 .tabUnselected {
     color: #2C3E50;
     opacity: 0.5;
+}
+
+@media screen and (min-width:1170px) {
+    .tabContainer {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:1169px) {
+    .tabContainer {
+        width: 20%;
+    }
 }
