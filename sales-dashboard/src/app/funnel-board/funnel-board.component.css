@@ -10,6 +10,34 @@
         width: 100%;
         margin-top: 20px
     }
+    .funnelDataContainer {
+        width: 100%;
+        position: absolute;
+        height: 12%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top0 {
+        top: 0;
+    }
+    .top15 {
+        top: 12%;
+    }
+    .top30 {
+        top: 24%;
+    }
+    .top45 {
+        top: 36%;
+    }
+    .top60 {
+        top: 48%;
+    }
+    .top75 {
+        top: 64%
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -27,7 +55,7 @@
     }
 }
 
-@media screen and (max-width: 1460px) {
+@media screen and (min-width: 1369px) {
     .funnelDataContainer {
         width: 100%;
         position: absolute;
@@ -38,6 +66,56 @@
         justify-content: center;
         align-items: center;
     }
+    .top0 {
+        top: 0;
+    }
+    .top15 {
+        top: 15%;
+    }
+    .top30 {
+        top: 30%;
+    }
+    .top45 {
+        top: 45%;
+    }
+    .top60 {
+        top: 60%;
+    }
+    .top75 {
+        top: 75%
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1368px) {
+    .funnelDataContainer {
+        width: 100%;
+        position: absolute;
+        height: 14%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top0 {
+        top: 0;
+    }
+    .top15 {
+        top: 14%;
+    }
+    .top30 {
+        top: 28%;
+    }
+    .top45 {
+        top: 42%;
+    }
+    .top60 {
+        top: 56%;
+    }
+    .top75 {
+        top: 70%
+    }
 }
 
 .funnelContainer {
@@ -47,16 +125,7 @@
 .funnelImage {
     width: 100%;
 }
-.funnelDataContainer {
-    width: 100%;
-    position: absolute;
-    height: 15%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .cardsContainer {
     display: flex;
     flex-direction: column;
@@ -66,24 +135,6 @@
 
 .funnelChartContainer {
     position: relative;
-}
-.top0 {
-    top: 0;
-}
-.top15 {
-    top: 15%;
-}
-.top30 {
-    top: 30%;
-}
-.top45 {
-    top: 45%;
-}
-.top60 {
-    top: 60%;
-}
-.top76 {
-    top: 76%
 }
 
 .dataFont {
@@ -131,8 +182,6 @@
     opacity: 0.5;
     color: #2C3E50;
 }
-
-
 
 .card {
     width: 100%;
